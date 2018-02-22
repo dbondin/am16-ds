@@ -30,7 +30,7 @@ void float_to_bin()
 
 void bin_to_float()
 {
-    char buf[32];
+    char buf[33];
     printf("Введите число: ");
     scanf("%s", buf);
     int res=0;
