@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LABS="lab1 lab2 lab3 lab4 lab5"
+LABS="lab1 lab2 lab3 lab4 lab5 lab6 lab7 lab8"
 USERS=$(sed -n 's/^.*@\([^ ][^ ]*\) .*$/\1/p' README.md)
 
 for l in ${LABS}
