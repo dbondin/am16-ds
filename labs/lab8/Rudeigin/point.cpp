@@ -11,7 +11,7 @@ point::~point() {
     delete bottom;
 }
 
-point::point(point * _parent, state _man, vector<state> _boxes, Step _s)
+point::point(point * _parent, state _man, std::vector<state> _box, Step _s)
 {
     parent =_parent;
     top = NULL;
