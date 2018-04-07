@@ -33,3 +33,18 @@ state::state(unsigned char _x, unsigned char _y){
     y=_y;
 }
 
+void state::set_x(int _x) {
+    x = _x;
+}
+
+unsigned char state::get_x() {
+    return x;
+}
+
+void state::set_y(int _y) {
+    y = _y;
+}
+
+unsigned char state::get_y() {
+    return y;
+}
